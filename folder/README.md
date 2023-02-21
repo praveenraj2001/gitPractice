@@ -23,6 +23,7 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 1. git log and select first 5 digits for the commit that you want to revert
 2. git checkout <5digit>
 3. __NOTE__ if you want to commit you have to get back to last commit (you can only see if you want to update you have to create new branch)
+4. git checkout main __to get back to the last commit__
 
 #### Undoing comitted changes ####
 1. git commit -m "comment"
