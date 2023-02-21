@@ -32,4 +32,4 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 #### Creating a branch ####
 1. git checkout -b branchName1 __create a branch__
 2. git status
-3. 
+3. git branch __to check where you are in branch__ 
