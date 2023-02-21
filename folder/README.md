@@ -30,7 +30,7 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 2. git revert HEAD __This will uncommit the last commit__
 
 #### Creating a branch ####
-1. git checkout -b branchName1 __create a branch__
+1. git checkout -b branchName1 __create a branch and checkout to branchName1__
 2. git status
 3. git branch __to check where you are in branch__ 
 4. __add,then commit__
