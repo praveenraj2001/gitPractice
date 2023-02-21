@@ -25,4 +25,5 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 3. __NOTE__ if you want to commit you have to get back to last commit (you can only see if you want to update you have to create new branch)
 
 #### Undoing comitted changes ####
-1. 
+1. git commit -m "comment"
+2. git revert HEAD __This will uncommit the last commit__
