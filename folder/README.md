@@ -42,3 +42,4 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 10. git branch --d branch1 __to delete branch for local__
 
 #### Creating a branch with conflict ####
+use gui and select add both/ any other according to your requirement
