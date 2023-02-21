@@ -1,10 +1,10 @@
 1. mkdir folder
 2. touch README.md
-3. git commit -m "commitName"
-4. git commit -a -m "messageName" here this will not create new commit it will add to existing commit
-5. git push origin __Push to the folder__
-6. git status __To get the status of the git__
-7. git add folder/README.md __make the changes you made__
+3. git add folder/README.md __make the changes you made__
+4. git commit -m "commitName"
+5. git commit -a -m "messageName" here this will not create new commit it will add to existing commit
+6. git push origin __Push to the folder__
+7. git status __To get the status of the git__
 8. git log __TO see what you have done__
 
 ###   Staging and Committing  ###
