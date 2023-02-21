@@ -5,8 +5,8 @@
 5. git push origin __Push to the folder__
 6. git status __To get the status of the git__
 7. git add folder/README.md __make the changes you made__
+8. git log __TO see what you have done__
 
-# git log __TO see what you have done__
 ###   Staging and Committing  ###
 
 Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit all the changes, but you want the changes in a.rb and b.rb to be a single commit, while the changes to c.rb are not logically related to the first two files and should be a separate commit
