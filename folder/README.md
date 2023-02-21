@@ -5,7 +5,9 @@
 5. git commit -a -m "messageName" here this will not create new commit it will add to existing commit
 6. git push origin __Push to the folder__
 7. git status __To get the status of the git__
-8. git log __TO see what you have done__
+
+1. git log __TO see what you have done__
+2. git log --pretty=oneline __TO see what you have done in one line__
 
 ###   Staging and Committing  ###
 
