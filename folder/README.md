@@ -40,3 +40,5 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 8. git push
 9. git push origin -d branch1 __to delete branch for remote__
 10. git branch --d branch1 __to delete branch for local__
+
+#### Creating a branch with conflict ####
