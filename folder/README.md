@@ -38,4 +38,5 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 6. git checkout main
 7. git merge branchName1
 8. git push
-9. git branch --d branch1 __to delete branch__
+9. git branch --d branch1 __to delete branch for local__
+9. git push origin -d branch1 __to delete branch for remote__
