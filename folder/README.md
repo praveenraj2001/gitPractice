@@ -28,3 +28,8 @@ Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit al
 #### Undoing comitted changes ####
 1. git commit -m "comment"
 2. git revert HEAD __This will uncommit the last commit__
+
+#### Creating a branch ####
+1. git checkout -b branchName1 __create a branch__
+2. git status
+3. 
