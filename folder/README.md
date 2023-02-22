@@ -11,7 +11,7 @@
 
 ###   Staging and Committing  ###
 
-Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit all the changes, but you want the changes in a.rb and b.rb to be a single commit, while the changes to c.rb are not logically related to the first two files and should be a separate commit
+Suppose you edited three files (a.md, b.md, and c.md). Now you want to commit all the changes, but you want the changes in a.rb and b.rb to be a single commit, while the changes to c.rb are not logically related to the first two files and should be a separate commit
 1. echo "written to c " > c.md __write someting to a,b,c .md files__
 2. git add a.rb, b.rb
 3. git commit -m "Changes for a and b"
