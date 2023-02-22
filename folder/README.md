@@ -11,11 +11,11 @@
 
 ###   Staging and Committing  ###
 
-Suppose you edited three files (a.rb, b.rb, and c.rb). Now you want to commit all the changes, but you want the changes in a.rb and b.rb to be a single commit, while the changes to c.rb are not logically related to the first two files and should be a separate commit
+Suppose you edited three files (a.md, b.md, and c.md). Now you want to commit all the changes, but you want the changes in a.md and b.md to be a single commit, while the changes to c.md are not logically related to the first two files and should be a separate commit
 1. echo "written to c " > c.md __write someting to a,b,c .md files__
-2. git add a.rb, b.rb
+2. git add a.md, b.md
 3. git commit -m "Changes for a and b"
-4. git add c.rb
+4. git add c.md
 5. git commit -m "Unrelated change to c"
 6. git reset filename.md To reset stagged files use
 
