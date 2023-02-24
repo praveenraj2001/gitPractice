@@ -33,7 +33,7 @@ Suppose you edited three files (a.md, b.md, and c.md). Now you want to commit al
 1. git checkout -b branchName1 __create a branch and checkout to branchName1__
 2. git status
 3. git branch __to check where you are in branch__ 
-4. __add,then commit__
+4. __add,then commit__ git add. to all all changes
 5. git push origin branch1  __to push to branch1__
 6. git checkout main
 7. git merge branchName1
@@ -59,7 +59,10 @@ now in merg squash the output will show   __(cmd: git merge --squash branch1)__
     m1 ---- m2 ---- m3 -----> final
            
 
-now in merg and rebase output will show   __(cmd: )__
+now in merg and rebase output will show   __(cmd: git rebase <>)__
 
     m1 ---- m2 ---- m3 ---- p1 ---- p2 ----> final
     
+#### Rebasing ####
+1. git rebase main (do this from branch)
+2. git rebase branch (do this from master branch)
