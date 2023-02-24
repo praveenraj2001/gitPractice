@@ -48,4 +48,4 @@ use gui and select add both/ any other according to your requirement
          |
          p1------p2
 
-* now in normal merg the output will show
+* now in normal merg the output will show m1---m2---m3---p1---p2
