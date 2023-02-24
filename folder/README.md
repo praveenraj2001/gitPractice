@@ -44,8 +44,17 @@ Suppose you edited three files (a.md, b.md, and c.md). Now you want to commit al
 #### Creating a branch with conflict ####
 use gui and select add both/ any other according to your requirement
 
- m1 ---- m2 ---- m3
-         |
-         p1------p2
+    m1 ---- m2 ---- m3
+            |
+            p1------p2
 
-* now in normal merg the output will show m1---m2---m3---p1---p2
+* now in normal merg the output will show   __(cmd:  git merge branchName1)__
+    m1 ---- m2 ---- m3---- \ -----> final
+            |               |  
+            p1------p2---- /
+
+* now in merg squash the output will show   __(cmd: git merge --squash branch1)__
+   m1 ---- m2 ---- m3  ----> final
+
+* now in merg and rebase output will show   __(cmd: )__
+   m1 ---- m2 ---- m3 ---- p1 ---- p2 ----> final
