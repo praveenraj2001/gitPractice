@@ -58,6 +58,8 @@ now in merg squash the output will show   __(cmd: git merge --squash branch1)__
 
    m1 ---- m2 ---- m3  ----> final
 
+
 now in merg and rebase output will show   __(cmd: )__
 
    m1 ---- m2 ---- m3 ---- p1 ---- p2 ----> final
+   
